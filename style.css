@@ -8,8 +8,9 @@
 .navbar{
     height: 60px;
     background-color: #0F1111;
+    color: white;
 }
-.navbar img{
+.logo img{
     height: 60px;
     padding-left: 10px;
 }
