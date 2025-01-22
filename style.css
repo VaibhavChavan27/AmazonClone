@@ -10,6 +10,7 @@
     background-color: #0F1111;
     color: white;
     display: flex;
+    align-items: center;
 }
 .nav-logo{
     height: 50px;
@@ -36,12 +37,14 @@
 .first-para{
     color: #cccccc;
     font-size: 0.85rem;
+    margin-left: 15px;
 }
 .second-para{
     color: #ffffff;
     font-size: 1rem;
+    margin-left: 3px;
 }
 .add-icon{
     display: flex;
-    gap: 0.4vw;
+    align-items: center;
 }
