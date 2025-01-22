@@ -9,8 +9,39 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
+    display: flex;
 }
-.logo img{
-    height: 60px;
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
     padding-left: 10px;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/*  box 2 */
+.nav-address{
+    
+}
+.first-para{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.second-para{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    gap: 0.4vw;
 }
