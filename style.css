@@ -114,3 +114,22 @@ span{
     font-size: 0.85 rem;
     font-weight: 700;
 }
+
+/* Panel section */
+.panel{
+    display: flex;
+    align-items: center;
+    background-color: #252c47;
+    color: #f3f3f3;
+    height: 39px;
+}
+.panel-all i{
+    font-size: 25px;
+    text-align: center;
+}
+.panel-all{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    text-align: center;
+}
