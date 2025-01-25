@@ -168,6 +168,7 @@ span{
     align-items: flex-end;
     padding-left: 2vw;
     padding-right: 2vw;
+   
 }
 .hero-msg{
     background-color: white;
@@ -182,5 +183,35 @@ span{
 .hero-msg a{
     color: #007185;
     text-decoration: none;
+}
+
+/* Shop section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: rgba(237, 237, 237, 0.99);
+}
+.box{
+    /* border: 2px solid red; */
+    height: 420px;
+    width: 24%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+
+.box-img img{
+    height: 300px;
+    width: 100%;
+    margin: 12px 0px;
+
+}
+.box p{
+    color: #007185;
 }
  
